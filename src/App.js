@@ -16,7 +16,7 @@ class App extends Component {
         <p className="App-intro">
           kimberly hermosillo // check back for updates
           <p>720/675/2974</p>
-          <p><a href="mine@kimhermosillo.com">mine@kimhermosillo.com</a></p>
+          <p><a className="App-link" href="mine@kimhermosillo.com">mine@kimhermosillo.com</a></p>
 
         </p>
       </div>

@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Header from '../src/components/Header'
+import About from '../src/components/About'
+import Footer from '../src/components/Footer'
 import logo from './mine.png';
 import './App.css';
 
@@ -17,6 +19,7 @@ class App extends Component {
           <p><a className="App-link" href="mine@kimhermosillo.com">mine@kimhermosillo.com</a></p>
 
         </p>
+        <Footer />
       </div>
     );
   }

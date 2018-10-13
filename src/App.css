@@ -24,7 +24,7 @@
 
 .footer-container {
   background:;
-position: fixed;
+  position: fixed;
+  left: 25vw;
   bottom: 0;
-  padding: 10px;
 }

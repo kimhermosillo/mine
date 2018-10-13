@@ -11,7 +11,7 @@ export default class Header extends React.Component {
             <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
           <h1 className='App-title'>['mine']</h1>
-         
+       
           <NavLink exact to ='/'className='App-link'>Home</NavLink>
           <NavLink exact to ='/About' component={About} className='App-link'>About</NavLink>
           <NavLink exact to ='/Projects' component={Projects} className='App-link'>Projects</NavLink>

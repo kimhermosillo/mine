@@ -16,21 +16,39 @@
   justify-content: center;
   font-size: calc(1px + 2vmin);
   color: white;
+  padding-bottom: 3px;
 }
 
 .App-link {
   color: #81d8d0;
 }
 
+
 .Links {
   display: grid;
   grid-template-columns: 150px 150px 150px;
   color: #81d8d0;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffbbd0;
 }
 
 .footer-container {
-  background:;
-  position: fixed;
-  left: 25vw;
-  bottom: 0;
+  display: grid;
+  grid-template-columns: 100px;
+  grid-template-rows: 22% 10% 3% 13%;
+  grid-template-areas: "footer footer footer footer";
+
+}
+
+.footer {
+  grid-area: footer;
+  padding-top: 58vh;
 }

@@ -5,10 +5,9 @@ export default class Footer extends React.Component {
     render(){
     return (
         <footer className="footer-container">
-        kimberly hermosillo // check back for updates
-          <p>720/675/2974</p>
-          <p><a className="App-link" href="mine@kimhermosillo.com">mine@kimhermosillo.com</a></p>
-
+        <div className="footer">
+        kimberly hermosillo | 720/675/2974 <a className='App-link'>mine@kimhermosillo.com</a>
+        </div>
         </footer>
     )
     }   

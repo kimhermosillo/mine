@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
+import ReactDOM from 'react-dom'
 import Header from '../src/components/Header'
 import About from '../src/components/About'
 import Footer from '../src/components/Footer'
-import logo from './mine.png';
+// import logo from './mine.png';
 import './App.css';
 
 
@@ -26,3 +27,7 @@ class App extends Component {
 }
 
 export default App
+ReactDOM.render(
+  <About/>,
+  document.getElementById('root')
+)

@@ -8,7 +8,7 @@ export default class Header extends React.Component {
             <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">['mine']</h1>
-          <a className='App-link'>About</a>
+          <a href="/about" className='App-link'>About</a>
         </header>
         
         )

@@ -1,9 +1,14 @@
 import React, {Component} from 'react'
 
-export default class About extends React.Component {
+class About extends Component {
     render() {
-        return(
-            <p>my name is</p>
+        return (
+            <div>
+                <div className="about">About</div>
+                <p>life sucks and then u die </p>
+            </div>
         )
     }
 }
+
+export default About

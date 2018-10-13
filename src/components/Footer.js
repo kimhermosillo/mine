@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
     return (
         <footer className="footer-container">
         <div className="footer">
-        kimberly hermosillo | 720/675/2974 <a className='App-link'>mine@kimhermosillo.com</a>
+        kimberly hermosillo | 720/675/2974 <a href='mine@kimhermosillo.com'>mine@kimhermosillo.com</a>
         </div>
         </footer>
     )

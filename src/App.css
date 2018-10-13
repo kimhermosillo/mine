@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: grid;
+    grid-template-rows: 25vh 70vh 0vh;
 }
 
 .App-logo {
@@ -21,6 +23,9 @@
 
 .App-link {
   color: #81d8d0;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+
 }
 
 
@@ -34,6 +39,7 @@
 
 a:link {
   text-decoration: none;
+  color: #81d8d0;
 }
 
 a:hover {
@@ -42,13 +48,13 @@ a:hover {
 
 .footer-container {
   display: grid;
-  grid-template-columns: 100px;
-  grid-template-rows: 22% 10% 3% 13%;
+  /* grid-template-columns: 150px 150px 150px; */
+  /* grid-template-rows: 150px; */
   grid-template-areas: "footer footer footer footer";
 
 }
 
 .footer {
   grid-area: footer;
-  padding-top: 58vh;
+ 
 }

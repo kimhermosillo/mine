@@ -1,0 +1,16 @@
+import React, {Component} from 'react'
+import { Route } from 'react-router-dom'
+
+class Projects extends Component {
+    render() {
+        return (
+            <div>
+                <div className="projects">Projects</div>
+                <Route exact path='/.Projects' component={Projects} />
+                <p>currently working remote </p>
+            </div>
+        )
+    }
+}
+
+export default Projects

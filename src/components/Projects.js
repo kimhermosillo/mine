@@ -7,7 +7,7 @@ class Projects extends Component {
             <div>
                 <div className="projects">Projects</div>
                 <Route exact path='/.Projects' component={Projects} />
-                <p>currently working remote </p>
+                <p> Link to my github! </p>
             </div>
         )
     }

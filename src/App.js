@@ -5,6 +5,11 @@ import About from '../src/components/About'
 import Footer from '../src/components/Footer'
 // import logo from './mine.png';
 import './App.css';
+// ALL ROUTING
+import { Route } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
+import Projects from './components/Projects';
 
 
 
@@ -12,22 +17,20 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <BrowserRouter>
+      <div className='App'>
         <Header />
-        <p className="App-intro">
-          kimberly hermosillo // check back for updates
-          <p>720/675/2974</p>
-          <p><a className="App-link" href="mine@kimhermosillo.com">mine@kimhermosillo.com</a></p>
-
+        <p className='App-intro'>
+        <Route exact path='/About' component={About} />
+        <Route exact path ='/Projects' component={Projects} />
+          
         </p>
         <Footer />
       </div>
+      </BrowserRouter>
     );
   }
 }
 
 export default App
-ReactDOM.render(
-  <About/>,
-  document.getElementById('root')
-)
+ReactDOM.render(<App />, document.getElementById('root'));

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import logo from '../mine.png'
+import { NavLink } from 'react-router-dom'
 
 
 export default class Header extends React.Component {
@@ -8,7 +9,7 @@ export default class Header extends React.Component {
             <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">['mine']</h1>
-          <a href="/about" className='App-link'>About</a>
+          <NavLink exact to ="./About" className='App-link'>About</NavLink>
         </header>
         
         )

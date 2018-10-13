@@ -6,8 +6,8 @@ class About extends Component {
         return (
             <div>
                 <div className="about">About</div>
-                {/* <Route exact path='/.About' component={About} /> */}
-                <p>life sucks and then u die </p>
+                <Route exact path='/.About' component={About} />
+                <p>life sucks and then u die do u see me </p>
             </div>
         )
     }

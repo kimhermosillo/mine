@@ -2,11 +2,9 @@
   text-align: center;
   display: grid;
     grid-template-rows: 25vh 70vh 0vh;
-}
-
-.App-logo {
-  height: 8vmin;
-  display: flex;
+  height: 100%;
+  width: 75%;
+  background-color: white;
 }
 
 .App-header {
@@ -18,7 +16,7 @@
   justify-content: center;
   font-size: calc(1px + 2vmin);
   color: white;
-  padding-bottom: 3px;
+ 
 }
 
 .App-link {

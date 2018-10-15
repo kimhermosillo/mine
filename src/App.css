@@ -16,6 +16,7 @@
   justify-content: center;
   font-size: calc(1px + 2vmin);
   color: white;
+  margin-left: 20vw;
 }
 
 
@@ -44,8 +45,19 @@ a:hover {
   color: #ffbbd0;
 }
 
+// about page
+
+.about {
+  background-color: black;
+}
+
+
+
+
+
+
 .footerApp {
-  padding:10px;
+  margin-left: 20vw;
   
 }
 
@@ -63,7 +75,6 @@ a:hover {
 .footer {
   grid-area: footer;
   color: white;
-  padding: 10px;
   margin: 10px;
  
 }

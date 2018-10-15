@@ -1,23 +1,23 @@
 .App {
   text-align: center;
   display: grid;
-    grid-template-rows: 25vh 70vh 0vh;
-  height: 100%;
-  width: 75%;
-  background-color: white;
+    grid-template-rows: 25vh 75vh 10vh;
+    grid-row-gap: 10px;
+  width: 70%;
+  color: white;
+
 }
 
-.App-header {
+.overallHeader{
   background-color: black;
-  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(1px + 2vmin);
   color: white;
- 
 }
+
 
 .App-link {
   color: #81d8d0;
@@ -44,15 +44,26 @@ a:hover {
   color: #ffbbd0;
 }
 
+.footerApp {
+  padding:10px;
+  
+}
+
 .footer-container {
   display: grid;
   /* grid-template-columns: 150px 150px 150px; */
   /* grid-template-rows: 150px; */
   grid-template-areas: "footer footer footer footer";
+  color: white;
+  background-color: black;
+
 
 }
 
 .footer {
   grid-area: footer;
+  color: white;
+  padding: 10px;
+  margin: 10px;
  
 }

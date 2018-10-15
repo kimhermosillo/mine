@@ -22,7 +22,7 @@ import { Parallax, Background } from 'react-parallax'
 class App extends Component {
   render() {
     return (
-      <div>
+      
       <Parallax
             blur={10}
             bgImage={require('./mine.png')}
@@ -37,12 +37,14 @@ class App extends Component {
         <Route exact path='/About' component={About} />
         <Route exact path ='/Projects' component={Projects} />
         </p>
+        <div className="footerApp">
         <Footer />
+        </div>
       </div>
       </BrowserRouter>
       </Parallax>
       
-      </div>
+     
     );
   }
 }

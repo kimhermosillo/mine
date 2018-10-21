@@ -8,17 +8,17 @@ import Projects from './Projects';
 export default class Header extends React.Component {
    render() {
         return (
-            <div className='overallHeader'>
-        <header className='App-header'>
+        <header>
+        
           <h1>['mine']</h1>
-       <div className='Links'>
-          <NavLink exact to ='/'className='App-link'>Home</NavLink>
-          <NavLink exact to ='/About' component={About} className='App-link'>About</NavLink>
-          <NavLink exact to ='/Projects' component={Projects} className='App-link'>Projects</NavLink>
-       </div>
+        
+          {/* <NavLink exact to ='/'className='App-link'>Home</NavLink> */}
+          {/* <NavLink exact to ='/About' component={About} className='App-link'>About</NavLink> */}
+          {/* <NavLink exact to ='/Projects' component={Projects} className='App-link'>Projects</NavLink> */}
+   
 
+       
         </header>
-        </div>
         )
     }
 }

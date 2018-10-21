@@ -1,23 +1,17 @@
 .App {
   text-align: center;
   display: grid;
-    grid-template-rows: 25vh 75vh 10vh;
-    grid-row-gap: 10px;
-  width: 70%;
+    grid-template-rows: 10vh 7vh 70vh 20vh;
+    /* grid-row-gap: 10px; */
   color: white;
-
 }
 
-.overallHeader{
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(1px + 2vmin);
-  color: white;
-  margin-left: 20vw;
+header {
+  margin-bottom: 10vh;
 }
+
+
+
 
 
 .App-link {
@@ -26,52 +20,26 @@
   grid-template-columns: 150px 150px 150px;
 
 }
-
-
-.Links {
-  display: grid;
-  grid-template-columns: 150px 150px 150px;
-  color: #81d8d0;
-  font-weight: bolder;
-  text-decoration: none;
-}
-
 a:link {
   text-decoration: none;
   color: #81d8d0;
 }
-
 a:hover {
   color: #ffbbd0;
 }
 
-// about page
-
-.about {
-  margin-left:20vw;
-}
-
-.body {
-  background-color: black;
-}
 
 
 
 
 
-.footer-container {
-  display: grid;
-  /* grid-template-columns: 150px 150px 150px; */
-  /* grid-template-rows: 150px; */
-  grid-template-areas: "footer footer footer footer";
-  color: white;
-  background-color: black;
 
 
-}
 
 .footer {
   margin-left: 20vw;
+
+  margin-right:20vw;
   grid-area: footer;
   color: white;
 padding: 10px;

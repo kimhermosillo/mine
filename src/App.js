@@ -4,6 +4,7 @@ import Header from '../src/components/Header'
 import About from '../src/components/About'
 import Footer from '../src/components/Footer'
 import Home from '../src/components/Home'
+import Links from '../src/components/Links'
 // import logo from './mine.png';
 import './App.css';
 // ALL ROUTING
@@ -32,6 +33,7 @@ class App extends Component {
       <BrowserRouter>
       <div className='App'>
         <Header />
+        <Links />
         <p className='App-intro'>
         <Route exact path='/' component={Home} />
         <Route exact path='/About' component={About} />

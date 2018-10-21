@@ -3,22 +3,23 @@ import logo from '../mine.png'
 import { NavLink } from 'react-router-dom'
 import { Route } from 'react-router-dom'
 import About from './About'
-import Projects from './Projects';
+import Projects from './Projects'
+import Contact from './Contact'
 
 export default class Header extends React.Component {
    render() {
         return (
-            <div className='overallHeader'>
-        <header className='App-header'>
+        <header className='AppMenu'>
           <h1>['mine']</h1>
-       <div className='Links'>
-          <NavLink exact to ='/'className='App-link'>Home</NavLink>
-          <NavLink exact to ='/About' component={About} className='App-link'>About</NavLink>
-          <NavLink exact to ='/Projects' component={Projects} className='App-link'>Projects</NavLink>
-       </div>
+       
+          <NavLink exact to ='/'className='Menu-Home'>Home</NavLink>
+          <NavLink exact to ='/About' component={About} className='Menu-About'>About</NavLink>
+          <NavLink exact to ='/Projects' component={Projects} className='Menu-Projects'>Projects</NavLink>
+          <NavLink exact to ='/Contact' component={Contact} className='Menu-Contact'>Contact</NavLink>
+            
 
         </header>
-        </div>
+   
         )
     }
 }

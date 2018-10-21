@@ -48,18 +48,16 @@ a:hover {
 // about page
 
 .about {
+  margin-left:20vw;
+}
+
+.body {
   background-color: black;
 }
 
 
 
 
-
-
-.footerApp {
-  margin-left: 20vw;
-  
-}
 
 .footer-container {
   display: grid;
@@ -73,8 +71,9 @@ a:hover {
 }
 
 .footer {
+  margin-left: 20vw;
   grid-area: footer;
   color: white;
-  margin: 10px;
- 
+padding: 10px;
+background-color: black; 
 }

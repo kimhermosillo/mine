@@ -7,7 +7,7 @@ class Home extends Component {
             <div>
                 <div className="Home">Kimberly Hermosillo</div>
                 <Route exact path='/Home' component={Home} />
-          <p> [anywhere but here] 📍cdmx </p>
+          <p> [anywhere but here] 📍oaxaca </p>
             </div>
         )
     }

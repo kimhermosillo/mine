@@ -1,23 +1,28 @@
 .App {
   text-align: center;
   display: grid;
-    grid-template-rows: 10vh 7vh 70vh 20vh;
+    grid-template-rows: 13vh 7vh 70vh 20vh;
     /* grid-row-gap: 10px; */
   color: white;
 }
 
-header {
-  margin-bottom: 10vh;
+h1 {
+  background: black;
+  padding: 10px;
 }
 
+.Links {
+  background: black;
+  padding: 2vh;
+}
 
 
 
 
 .App-link {
   color: #81d8d0;
-  display: grid;
-  grid-template-columns: 150px 150px 150px;
+  /* display: grid; */
+  /* grid-template-columns: 150px 150px 150px; */
 
 }
 a:link {

@@ -4,13 +4,20 @@ import { NavLink } from 'react-router-dom'
 import { Route } from 'react-router-dom'
 import About from './About'
 import Projects from './Projects';
+import Home from './Home'
 
-export default class Header extends React.Component {
+export default class LinkHome extends React.Component {
    render() {
         return (
-        <header>
-          <h1>['mine']</h1>
-        </header>
+        <div>
+        
+
+        
+          
+          <NavLink exact to ='/Home' component={Home} className='App-link2'>Home</NavLink>
+          
+       
+      </div>
         )
     }
 }

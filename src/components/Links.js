@@ -8,16 +8,17 @@ import Projects from './Projects';
 export default class Links extends React.Component {
    render() {
         return (
-        <div className='Links'>
-    
+        <div>
         
-          <NavLink exact to ='/'className='App-link'>Home</NavLink>
-          <NavLink exact to ='/About' component={About} className='App-link'>About</NavLink>
-          <NavLink exact to ='/Projects' component={Projects} className='App-link'>Projects</NavLink>
+
+        
+          <NavLink exact to ='/'className='App-link1'></NavLink>
+          <NavLink exact to ='/About' component={About} className='App-link2'></NavLink>
+          <NavLink exact to ='/Projects' component={Projects} className='App-link3'></NavLink>
    
 
        
-        </div>
+      </div>
         )
     }
 }

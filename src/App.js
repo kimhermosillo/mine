@@ -14,6 +14,10 @@ import { BrowserRouter } from 'react-router-dom'
 import Projects from './components/Projects';
 //ADDING PARALLAX
 import { Parallax, Background } from 'react-parallax'
+// LINKS
+import LinkAbout from '../src/components/LinkAbout'
+import LinkHome from '../src/components/LinkHome'
+import LinkProject from '../src/components/LinkProject'
 
 
 
@@ -34,6 +38,9 @@ class App extends Component {
       <div className='App'>
         <Header />
         <Links />
+        <LinkHome />
+        <LinkAbout />
+        <LinkProject />
         <p className='App-intro'>
         <Route exact path='/' component={Home} />
         <Route exact path='/About' component={About} />

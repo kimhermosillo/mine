@@ -5,12 +5,18 @@ import { Route } from 'react-router-dom'
 import About from './About'
 import Projects from './Projects';
 
-export default class Header extends React.Component {
+export default class LinkProject extends React.Component {
    render() {
         return (
-        <header>
-          <h1>['mine']</h1>
-        </header>
+        <div>
+        
+
+        
+          
+          <NavLink exact to ='/Projects' component={Projects} className='App-link2'>Projects</NavLink>
+          
+       
+      </div>
         )
     }
 }

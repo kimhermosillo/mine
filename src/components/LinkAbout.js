@@ -9,7 +9,7 @@ import Home from './Home'
 export default class LinkAbout extends React.Component {
    render() {
         return (
-        <div>
+        <div className='abouttext'>
         
 
         

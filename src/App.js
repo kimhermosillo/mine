@@ -28,12 +28,7 @@ class App extends Component {
   render() {
     return (
       
-      <Parallax
-            blur={10}
-            bgImage={require('./mine.png')}
-            bgImageAlt="the cat"
-            strength={200}
-          >
+      
       <BrowserRouter>
       <div className='container'>
         <div className='header'><Header /></div>
@@ -51,7 +46,7 @@ class App extends Component {
         
       </div>
       </BrowserRouter>
-      </Parallax>
+    
       
      
     );

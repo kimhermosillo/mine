@@ -4,12 +4,14 @@ import { Route } from 'react-router-dom'
 class About extends Component {
     render() {
         return (
-                <div class='about'>
+                <div>
                 <Route exact path='/.About' component={About} />
                 <p>life sucks and then u die do u see me </p>
-                </div>
+               </div>
         )
     }
 }
 
 export default About
+
+

@@ -8,6 +8,7 @@ export default class Header extends React.Component {
         return (
         <header>
           <h1>['mine']</h1>
+          
         </header>
         )
     }

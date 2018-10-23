@@ -5,9 +5,9 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <div className="Home">Kimberly Hermosillo</div>
+                Kimberly Hermosillo
                 <Route exact path='/Home' component={Home} />
-          <p> [anywhere but here] 📍oaxaca </p>
+                [anywhere but here] 📍oaxaca 
             </div>
         )
     }

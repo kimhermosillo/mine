@@ -13,7 +13,7 @@ export default class LinkProject extends React.Component {
 
         
           
-          <NavLink exact to ='/Projects' component={Projects} className='App-link2'>Projects</NavLink>
+          <NavLink exact to ='/Projects' component={Projects} className='LinkProjects'>Projects</NavLink>
           
        
       </div>

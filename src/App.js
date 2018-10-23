@@ -35,20 +35,20 @@ class App extends Component {
             strength={200}
           >
       <BrowserRouter>
-      <div className='App'>
-        <Header />
+      <div className='container'>
+        <div className='header'><Header /></div>
         <Links />
-        <LinkHome />
-        <LinkAbout />
-        <LinkProject />
-        <p className='App-intro'>
+        <div className='home'><LinkHome /></div>
+        <div className='about'><LinkAbout /></div>
+        <div className='project'><LinkProject /></div>
+        {/* <p className='App-intro'> */}
         <Route exact path='/' component={Home} />
         <Route exact path='/About' component={About} />
         <Route exact path ='/Projects' component={Projects} />
-        </p>
-        <div className="footerApp">
-        <Footer />
-        </div>
+        {/* </p> */}
+        
+        <div className='footer'><Footer /></div>
+        
       </div>
       </BrowserRouter>
       </Parallax>

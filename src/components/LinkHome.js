@@ -14,7 +14,7 @@ export default class LinkHome extends React.Component {
 
         
           
-          <NavLink exact to ='/Home' component={Home} className='App-link2'>Home</NavLink>
+          <NavLink exact to ='/Home' component={Home} className='LinkHome'>Home</NavLink>
           
        
       </div>

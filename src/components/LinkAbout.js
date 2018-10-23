@@ -14,7 +14,7 @@ export default class LinkAbout extends React.Component {
 
         
           
-          <NavLink exact to ='/About' component={About} className='App-link2'>About</NavLink>
+          <NavLink exact to ='/About' component={About} className='LinkAbout'>About</NavLink>
           
        
       </div>

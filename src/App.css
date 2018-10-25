@@ -1,7 +1,7 @@
 .container {
   text-align: center;
   display: grid;
-  grid-template-columns: 30% 30% 40%;
+  grid-template-columns: 20vw 25% 20% 15% 20vw;
   grid-template-rows: 10vh 20vh 20vh 10vh 10vh 10vh 10vh 10vh;
   color: white;
   /* background-color: black; */
@@ -11,21 +11,37 @@ body{
     background-color: black;
 }
 
+.header {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+
+.home {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+
+
 .about {
   grid-row-start: 1;
-  grid-column-start: 3;
+  grid-column-start: 5;
 }
 
 .project {
-  grid-row-start: 7;
+  grid-row-start: 8;
+  grid-column-start: 5;
+}
+
+
+.anywhere {
+  grid-row-start: 3;
   grid-column-start: 3;
 }
 
 .footer {
-  grid-row-start: 7;
+  grid-row-start: 8;
 }
-
-
 
 
 .LinkProjects {
@@ -38,12 +54,6 @@ body{
   
 }
 
-p {
-  background: black;
-}
-
-
-
 
 
 a:link {
@@ -52,13 +62,6 @@ a:link {
 }
 a:hover {
   color: #ffbbd0;
-}
-
-
-.footer {
-background: black;
-padding: 2vh;
-
 }
 
 

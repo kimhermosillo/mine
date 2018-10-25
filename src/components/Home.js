@@ -4,10 +4,10 @@ import { Route } from 'react-router-dom'
 class Home extends Component {
     render() {
         return (
-            <div>
-                Kimberly Hermosillo
+            <div className='anywhere'>
+              <p> Kimberly Hermosillo
                 <Route exact path='/Home' component={Home} />
-                [anywhere but here] 📍oaxaca 
+                [anywhere but here] 📍oaxaca </p>
             </div>
         )
     }

@@ -1,15 +1,37 @@
 .container {
   text-align: center;
   display: grid;
-  grid-template-columns: 20vw 25% 20% 15% 20vw;
+  grid-template-columns: 10vw 10vw auto 10vw 16vw;
   grid-template-rows: 10vh 20vh 20vh 10vh 10vh 10vh 10vh 10vh;
-  color: white;
   /* background-color: black; */
 }
 
-body{
-    background-color: black;
+
+
+.button {
+  background: #000;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  border-radius: 0.25rem;
 }
+
+.button [type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.button [type="checkbox"] + span::before {
+  content: 'off';
+}
+
+.button [type="checkbox"]:checked + span::before {
+  content: 'on';
+}
+
+
+
+
+
 
 .header {
   grid-row-start: 1;
@@ -18,7 +40,7 @@ body{
 
 
 .home {
-  grid-row-start: 2;
+  grid-row-start: 8;
   grid-column-start: 1;
 }
 
@@ -31,6 +53,7 @@ body{
 .project {
   grid-row-start: 8;
   grid-column-start: 5;
+  grid-column-end: 6;
 }
 
 
@@ -40,7 +63,9 @@ body{
 }
 
 .footer {
-  grid-row-start: 8;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 

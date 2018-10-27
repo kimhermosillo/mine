@@ -18,6 +18,7 @@ import { Parallax, Background } from 'react-parallax'
 import LinkAbout from '../src/components/LinkAbout'
 import LinkHome from '../src/components/LinkHome'
 import LinkProject from '../src/components/LinkProject'
+// SICKO MODE\
 
 
 

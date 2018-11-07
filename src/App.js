@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom'
 import Header from '../src/components/Header'
 import About from '../src/components/About'
@@ -28,40 +28,36 @@ class App extends Component {
   render() {
 
 
-   
+
 
 
 
 
     return (
-      
-      
-    
-      <BrowserRouter>
-      <div className='container'>
-        <div className='header'><Header /></div>
-        <Links />
-        <div class='section white'> YES HELLOW</div>
-        
-        <div className='home'><LinkHome /></div>
-        <div className='about'><LinkAbout /></div>
-        <div className='project'><LinkProject /></div>
-        {/* <p className='App-intro'> */}
-        <Route exact path='/' component={Home} />
-        <Route exact path='/About' component={About} />
-        <Route exact path ='/Projects' component={Projects} />
-        {/* </p> */}
-        
-        <div className='footer'><Footer /></div>
-        
-      </div>
-      </BrowserRouter>
-     
-      
-     
-    );
-  }
-}
 
-export default App
+
+      <div>
+        <BrowserRouter>
+          <Header />
+
+              <Links />
+
+              <LinkHome />
+              <LinkAbout />
+              <LinkProject />
+              <Route exact path='/' component={Home} />
+              <Route exact path='/About' component={About} />
+              <Route exact path='/Projects' component={Projects} />
+
+
+              <Footer />
+
+            </div>
+        </BrowserRouter> 
+      </div>
+        );
+      }
+    }
+    
+    export default App
 ReactDOM.render(<App />, document.getElementById('root'));

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
+    "materialize-css": "^1.0.0-rc.2",
     "nodemon": "^1.18.4",
     "particles.js": "^2.0.0",
     "react": "^16.5.2",

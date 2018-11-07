@@ -13,7 +13,7 @@ import { NavLink } from 'react-router-dom'
 import { BrowserRouter } from 'react-router-dom'
 import Projects from './components/Projects';
 //ADDING PARALLAX
-import { Parallax, Background } from 'react-parallax'
+import 'materialize-css/dist/css/materialize.min.css'
 // LINKS
 import LinkAbout from '../src/components/LinkAbout'
 import LinkHome from '../src/components/LinkHome'
@@ -26,18 +26,23 @@ import LinkProject from '../src/components/LinkProject'
 
 class App extends Component {
   render() {
+
+
+   
+
+
+
+
     return (
       
-      <Parallax
-            blur={10}
-            bgImage={require('./mine.png')}
-            bgImageAlt="the cat"
-            strength={200}
-          >
+      
+    
       <BrowserRouter>
       <div className='container'>
         <div className='header'><Header /></div>
         <Links />
+        <div class='section white'> YES HELLOW</div>
+        
         <div className='home'><LinkHome /></div>
         <div className='about'><LinkAbout /></div>
         <div className='project'><LinkProject /></div>
@@ -51,7 +56,7 @@ class App extends Component {
         
       </div>
       </BrowserRouter>
-      </Parallax>
+     
       
      
     );

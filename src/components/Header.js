@@ -11,7 +11,9 @@ export default class Header extends React.Component {
           <p>
 
 
-
+Kim Hermosillo
+Denver, CO
+mine@kimhermosillo.com 720/676/2974
 
 
 

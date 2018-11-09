@@ -1,13 +1,14 @@
 import React, {Component} from 'react'
 import { Route } from 'react-router-dom'
+import 'materialize-css/dist/css/materialize.min.css'
 
 class Home extends Component {
     render() {
         return (
-            <div>
-                <div className="Home">Kimberly Hermosillo</div>
+            <div class='anywhere'>
+              <p> Kimberly Hermosillo
                 <Route exact path='/Home' component={Home} />
-          <p> [anywhere but here] </p>
+                [anywhere but here] 📍HOUSTON </p>
             </div>
         )
     }

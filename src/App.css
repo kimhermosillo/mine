@@ -1,15 +1,10 @@
-.container {
+.container  {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(5, 125fr);
-  grid-template-rows: repeat(6, 125px);
+  grid-template-columns: repeat(4, 18vw);
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
   /* background-color: black; */
 }
-
-
-
-
-
 
 
 .header {
@@ -19,30 +14,30 @@
 
 
 .home {
-  grid-row-start: 8;
+  grid-row-start: 5;
   grid-column-start: 1;
 }
 
 
 .about {
-  grid-row-start: 1;
+  grid-row-start: 2;
   grid-column-start: 5;
 }
 
 .project {
-  grid-row-start: 8;
+  grid-row-start: 5;
   grid-column-start: 5;
   grid-column-end: 6;
 }
 
 
 .anywhere {
-  grid-row-start: 3;
+  grid-row-start: 2;
   grid-column-start: 3;
 }
 
 .footer {
-  grid-row-start: 2;
+  grid-row-start: 6;
   grid-column-start: 1;
   grid-column-end: 3;
 }

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { Route } from 'react-router-dom'
-import 'materialize-css/dist/css/materialize.min.css'
+// import 'materialize-css/dist/css/materialize.min.css'
 
 class Home extends Component {
     render() {

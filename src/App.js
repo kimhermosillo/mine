@@ -7,7 +7,7 @@ import Home from '../src/components/Home'
 import Links from '../src/components/Links'
 // import logo from './mine.png';
 import './App.css';
-import 'materialize-css/dist/css/materialize.min.css'
+// import 'materialize-css/dist/css/materialize.min.css'
 // ALL ROUTING
 import { Route } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
